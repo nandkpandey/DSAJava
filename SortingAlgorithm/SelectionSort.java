@@ -1,5 +1,5 @@
 package SortingAlgorithm;
-
+/* Time complexity best case omega(n^2) worst case o(n^2) */
 public class SelectionSort {
   
     public static void selectionSort(int arr[]){
