@@ -1,5 +1,7 @@
 package Stack;
 
+import java.util.Iterator;
+
 public class Main {
    
     
@@ -17,5 +19,12 @@ public static void main(String[] args) {
      for (Integer integer : stack) {
         System.out.println(integer);
      }
+
+     System.out.println("Iterating by iterator");
+      Iterator<Integer> itr=stack.iterator();
+while(itr.hasNext()){
+   System.out.println(itr.next());
 }
+
+   }
 }
